@@ -1,0 +1,11 @@
+[package]
+name = "rs-cpu-usage"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.psutil]
+version = "5.2.0"
+default-features = false
+features = [
+	"cpu",
+]
